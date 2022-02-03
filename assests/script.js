@@ -1,27 +1,38 @@
-function Addfunction(a,b,c){
-    a = Number(value1.value);
-    b = Number(value2.value);
-    c = a + b;
+
+function Addfunction(){
+    let a = Number(value1.value);
+    let b = Number(value2.value);
+    let c = a + b;
     main.innerHTML += a + " + " + b + " = " + c + "<br>";
-};
-
-function Substractfunction(a,b,c){
-    a = Number(value1.value);
-    b = Number(value2.value);
-    c = a - b;
+}
+function clearfunction(){
+     value1.value = "";
+     value2.value = "";
+    main.innerHTML = "";
+}
+function Substractfunction(){
+    let a = Number(value1.value);
+    let b = Number(value2.value);
+    let c = a - b;
+    
     main.innerHTML += a + " - " + b + " = " + c + "<br>";
-};
-
-function Multiplyfunction(a,b,c){
-    a = Number(value1.value);
-    b = Number(value2.value);
-    c = a * b;
+}
+function perfunction(){
+    let a = Number(value1.value);
+    let b = Number(value2.value);
+    let c = (a * b)/100;
+    
+    main.innerHTML += a + " % " + b + " = " + c + "<br>";
+}
+function Multiplyfunction(){
+    let a = Number(value1.value);
+    let b = Number(value2.value);
+    let c = a * b;
     main.innerHTML += a + " * " + b + " = " + c + "<br>";
-};
-
-function Dividefunction(a,b,c){
-    a = Number(value1.value);
-    b = Number(value2.value);
-    c = a / b;
+}
+function Dividefunction(){
+    let a = Number(value1.value);
+    let b = Number(value2.value);
+    let c = a / b;
     main.innerHTML += a + " / " + b + " = " + c + "<br>";
 }
