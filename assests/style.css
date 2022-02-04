@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(to right, #e6d5d5 , #c0c0ae ,#b2b2c4);
+}
 header{
     position: fixed;
     top: 0px;
@@ -45,6 +48,7 @@ main{
     background: #fff;
     border: 1px solid #000;
     padding: 1em;
+    background-image: linear-gradient(to right, #e1cfcf , #e6e6db ,#dadaef);
     border-radius: 2em;
 }
 #app h1{
