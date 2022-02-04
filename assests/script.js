@@ -36,3 +36,21 @@ function Dividefunction(){
     let c = a / b;
     main.innerHTML += a + " / " + b + " = " + c + "<br>";
 }
+
+window.addEventListener('keydown',(e)=>{
+if(e.key === "+"){
+   Addfunction();
+}
+ else if(e.key === "-"){
+   Substractfunction();
+}
+ else if(e.key === "*"){
+   Multiplyfunction();
+} else if(e.key === "/"){
+   Dividefunction();
+} else if(e.key === "%"){
+   perfunction();
+} else if(e.key === "Delete"){
+   clearfunction();
+}
+});
